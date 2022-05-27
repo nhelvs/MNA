@@ -1,5 +1,0 @@
-/Maps/YoshiIsland.kpbin
-/Maps/Desert.kpbin
-/Maps/Cavern.kpbin
-/Maps/Fullmap.kpbin
-/Maps/Warp.kpbin
