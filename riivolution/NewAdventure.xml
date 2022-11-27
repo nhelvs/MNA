@@ -49,9 +49,10 @@
 		<folder external="NewerRes" disc="/NewerRes" create="true" />
 		<!-- <folder external="CS" disc="/CS" create="true" /> -->
 		<folder external="LevelSamples" disc="/LevelSamples" create="true" />
-		<folder external="PreGame" disc="/PreGame" create="true" />
 		<folder external="Others" />
 		<folder external="Others{$__region}" />
+		<folder external="PreGame" disc="/PreGame" create="true" />
+		<folder external="Worlds" disc="/Worlds" create="true" />
 		<folder external="Maps" disc="/Maps" create="true" />
 		<folder external="Maps/Texture" disc="/Maps" create="true" />
 		<folder external="Stage" disc="/Stage" create="true" />
