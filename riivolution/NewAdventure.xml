@@ -15,15 +15,16 @@
 	</options>
 	<patch id="newadv">
 		<!-- <savegame external="/save/{$__gameid}{$__region}" clone="false" /> -->
-		<folder external="TitleReplay" disc="/Replay/title" create="true" />
-		<folder external="BGs" disc="/Object" create="true" />
-		<folder external="Effects" disc="/Effect" create="true" />
-		<folder external="SpriteTex" disc="/Object" create="true" />
-		<folder external="Layouts" disc="/Layout" create="true" />
+		<folder external="Backgrounds" disc="/Object" create="true" />
+		<folder external="Object" disc="/Object" create="true" />
+		<!-- <folder external="Effects" disc="/Effect" create="true" /> -->
+		<folder external="Layouts/Newer" disc="/Layout" create="true" />
+		<folder external="Layouts/Patched" />
 		<folder external="Music" disc="/Sound/stream" create="true" />
 		<folder external="Music/sfx" disc="/Sound/new/sfx" create="true" />
 		<folder external="Music/stream" disc="/Sound/stream" create="true" />
 		<folder external="Music/rsar" disc="/Sound" />
+		
 		<folder external="Font" disc="/EU/EngEU/Font" />
 		<folder external="Font" disc="/EU/GerEU/Font" />
 		<folder external="Font" disc="/EU/FraEU/Font" />
@@ -46,13 +47,12 @@
 		<folder external="Message" disc="/JP/Message" />
 		<folder external="Message" disc="/KR/Message" />
 		<folder external="Message" disc="/TW/Message" />
+		
 		<folder external="NewerRes" disc="/NewerRes" create="true" />
-		<!-- <folder external="CS" disc="/CS" create="true" /> -->
-		<folder external="LevelSamples" disc="/LevelSamples" create="true" />
-		<folder external="Others" />
-		<folder external="Others{$__region}" />
-		<folder external="PreGame" disc="/PreGame" create="true" />
-		<folder external="Worlds" disc="/Worlds" create="true" />
+		<folder external="Misc/LevelSamples" disc="/Misc/LevelSamples" create="true" />
+		<folder external="Misc/Region{$__region}" />
+		<folder external="Misc/PreGame" disc="/Misc/PreGame" create="true" />
+		<folder external="Misc/Worlds" disc="/Misc/Worlds" create="true" />
 		<folder external="Maps" disc="/Maps" create="true" />
 		<folder external="Maps/Texture" disc="/Maps" create="true" />
 		<folder external="Stage" disc="/Stage" create="true" />

@@ -1,0 +1,35 @@
+<wiidisc version="1" shiftfiles="true" log="true">
+    <id game="SMN">
+        <region type="J"/>
+    </id>
+    <options>
+        <section name="Newer SUMMER SUN">
+            <option name="Newer SUMMER SUN" id="NewerS" default="1">
+                <choice name="Enabled"><patch id="NewerS"/></choice>
+            </option>
+		</section>
+    </options>
+    <patch id="NewerS" root="/SumSun">
+		<savegame external="/SumSun/save/{$__gameid}{$__region}" clone="false" />  
+		<folder external="Stage/Texture" disc="/Stage/Texture/" create="true"/>
+		<folder external="NewerRes" disc="/NewerRes/" create="true"/>
+		<folder external="Stage" disc="/Stage/" create="true" />
+		<folder external="Env" />
+		<folder external="Effect" />
+		<folder external="EU/EngEu/Message/" disc="/JP/Message/" />
+		<folder external="EU/EngEu/staffroll/" disc="/JP/staffroll/" />
+		<folder external="Sound/stream/" />
+		<folder external="Sound" />
+		<folder external="WorldMap" />
+		<folder external="Object" disc="/Object/" create="true" />
+		<folder external="OpeningJ" />
+		<folder external="Layout" />
+		<memory offset="0x800E4914" value="3C600140" original="3C600120" />
+		<memory offset="0x800E4994" value="3C600140" original="3C600120" />
+		<memory offset="0x800E4A84" value="3C600140" original="3C600120" />
+        	<memory offset="0x80328130" value="80001800" original="8015BB20" />
+        	<memory offset="0x80328478" value="80001800" original="8015BC60" />
+		<memory offset="0x80001800" valuefile="Loader.bin" />
+
+</patch>
+</wiidisc>

@@ -1,0 +1,57 @@
+<wiidisc version="1" shiftfiles="true" log="true">
+    <id game="SMN">
+        <region type="P"/>
+    </id>
+    <options>
+        <section name="Epic Super Bowser World">
+            <option name="Epic Super Bowser World" id="ESBW" default="1">
+                <choice name="Enabled"><patch id="ESBW"/></choice>
+            </option>
+		</section>
+    </options>
+    <patch id="ESBW" root="/ESBW">
+		<folder external="Stage/Texture" disc="/Stage/Texture/" create="true"/>
+		<folder external="NewerRes" disc="/NewerRes/" create="true"/>
+		<folder external="Stage" disc="/Stage/" create="true" />
+		<folder external="Lang" />
+		<folder external="Font" />
+		<folder external="Stage" />
+	<folder external="EU/EngEu/Message/" disc="/EU/EngEu/Message/" />
+		<folder external="EU/EngEu/Message/" disc="/EU/FraEu/Message/" />
+		<folder external="EU/EngEu/Message/" disc="/EU/GerEu/Message/" />
+		<folder external="EU/EngEu/Message/" disc="/EU/SpaEu/Message/" />
+		<folder external="EU/EngEu/Message/" disc="/EU/NedEu/Message/" />
+		<folder external="EU/EngEu/staffroll/" disc="/EU/EngEu/staffroll/" />
+		<folder external="EU/EngEu/staffroll/" disc="/EU/FraEu/staffroll/" />
+		<folder external="EU/EngEu/staffroll/" disc="/EU/GerEu/staffroll/" />
+		<folder external="EU/EngEu/staffroll/" disc="/EU/SpaEu/staffroll/" />
+		<folder external="EU/EngEu/staffroll/" disc="/EU/NedEu/staffroll/" />
+		<folder external="Sound/stream/" />
+		<folder external="Layout/textures/" />
+		<folder external="Layout/sequenceBG/" />
+		<folder external="Layout/preGame/" />
+		<folder external="Layout/staffCredit/" />
+		<folder external="Layout/continue/" />
+		<folder external="Layout/corseSelectUIGuide/" />
+		<folder external="Layout/dateFile/" />
+		<folder external="Layout/gameScene/" />
+		<folder external="Layout/miniGameCannon/" />
+		<folder external="Layout/miniGameWire/" />
+		<folder external="Layout/MultiCourseSelect/" />
+		<folder external="Layout/pointResultDateFile/" />
+		<folder external="Layout/pointResultDateFileFree/" />
+		<folder external="Sound" />
+		<folder external="WorldMap" />
+		<folder external="Env" />
+		<folder external="MovieDemo" />
+		<folder external="Object" disc="/Object/" create="true" />
+		<folder external="OpeningP" />
+		<memory offset="0x800E4914" value="3C600140" original="3C600120" />
+		<memory offset="0x800E4994" value="3C600140" original="3C600120" />
+		<memory offset="0x800E4A84" value="3C600140" original="3C600120" />
+        	<memory offset="0x80328130" value="80001800" original="8015BB20" />
+        	<memory offset="0x80328478" value="80001800" original="8015BC60" />
+		<memory offset="0x80001800" valuefile="Loader.bin" />
+		
+	</patch>
+</wiidisc>
