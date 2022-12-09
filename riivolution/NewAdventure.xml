@@ -36,17 +36,17 @@
 		<folder external="Font" disc="/JP/Font" />
 		<folder external="Font" disc="/KR/Font" />
 		<folder external="Font" disc="/TW/Font" />
-		<folder external="Message" disc="/EU/EngEU/Message" />	
-		<folder external="Message" disc="/EU/GerEU/Message" />
-		<folder external="Message" disc="/EU/FraEU/Message" />
-		<folder external="Message" disc="/EU/SpaEU/Message" />
-		<folder external="Message" disc="/EU/ItaEU/Message" />
-		<folder external="Message" disc="/US/EngUS/Message" />
-		<folder external="Message" disc="/US/FraUS/Message" />
-		<folder external="Message" disc="/US/SpaUS/Message" />
-		<folder external="Message" disc="/JP/Message" />
-		<folder external="Message" disc="/KR/Message" />
-		<folder external="Message" disc="/TW/Message" />
+		<folder external="Message/EN" disc="/EU/EngEU/Message" />	
+		<folder external="Message/DE" disc="/EU/GerEU/Message" />
+		<folder external="Message/EN" disc="/EU/FraEU/Message" />
+		<folder external="Message/EN" disc="/EU/SpaEU/Message" />
+		<folder external="Message/EN" disc="/EU/ItaEU/Message" />
+		<folder external="Message/EN" disc="/US/EngUS/Message" />
+		<folder external="Message/EN" disc="/US/FraUS/Message" />
+		<folder external="Message/EN" disc="/US/SpaUS/Message" />
+		<folder external="Message/EN" disc="/JP/Message" />
+		<folder external="Message/EN" disc="/KR/Message" />
+		<folder external="Message/EN" disc="/TW/Message" />
 		
 		<folder external="NewerRes" disc="/NewerRes" create="true" />
 		<folder external="Misc/LevelSamples" disc="/Misc/LevelSamples" create="true" />
